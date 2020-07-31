@@ -1,3 +1,6 @@
 /* 
     Put hex color codes here for reference
 */
+nav {
+    background-image: linear-gradient(to right, #f6def6, #ffdbe2, #ffe0ca, #f4ebc0, #cff6cf);
+}
