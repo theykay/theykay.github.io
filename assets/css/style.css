@@ -6,3 +6,22 @@
     contrast seafoam: #C2EEEA
     contrast dark seafoam: #8CB6B3
 */
+* {
+    color: #685A68;
+}
+
+.col-4 {
+    align-self: center;
+}
+
+h3 {
+    min-width: 125px;
+}
+
+i {
+    font-size: 30px;
+}
+
+.navbar-brand {
+    color: #685A68;
+}
