@@ -19,20 +19,14 @@ nav {
     background: linear-gradient(to right, #FFCED9, #B5AEEC);
 }
 
-.navbar-nav {
-    display: flex;
-    align-items: flex-end;
-    justify-content: flex-end;
-}
-
-#resume {
-    color: purple;
-    background-color: lightgrey;
+#resumeBtn {
+    color: grey;
+    background-color: #FFCED9;
     border: 0;
     border-radius: 6px;
 }
 
-#resume:hover {
-    color: lightgrey;
-    background-color: purple;
+#resumeBtn:hover {
+    color: #FFCED9;
+    background-color: grey;
 }
