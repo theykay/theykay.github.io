@@ -17,18 +17,25 @@
 </head>
 
 <body>
+  <div id="resumeModal" class="modal">
+    <div class="modal-content">
+      <!-- <img id="resumeDoc" src="./assets/images/resume.pdf" alt="my resume">
+      <button id="download"><a href="./assets/images/resume.pdf" download>download</a></button> -->
+      <button id="close">close</button>
+    </div>
+  </div>
   <!-- nav -->
   <!-- Projects: hoverable drop-down menu. clicking on projects navigates to  portfolio.html, clicking on specific project navigates to that project-->
   <!-- Connect: navigates to contact.html -->
   <nav class="navbar navbar-expand-sm navbar-light bg-light">
-    <a class="navbar-brand" href="#">kyle murray</a>
+    <h1>kay</h1>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
       aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
 
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
+      <ul class="navbar-nav mr-auto float-right">
         <li class="nav-item active">
           <a class="nav-link" href="./index.html">about<span class="sr-only">(current)</span></a>
         </li>
@@ -48,11 +55,22 @@
     </div>
     <div class="row" style="margin: 2rem;">
       <div class="col">
-        <img src="./assets/images/profilePH.jpg" alt="rabbit from Disney Robin Hood looking sad" class="float-left" style="padding: 0 2rem 2rem 0;">
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae provident reprehenderit ipsum ullam iusto ipsa vitae animi, harum itaque, consectetur omnis quasi, nobis quaerat error perspiciatis nam totam minus ab quos aliquam? Iste quod voluptatem in nesciunt nihil! Quaerat nulla asperiores debitis ex eveniet, illo nostrum error voluptates! Dignissimos maxime ducimus minima, fugiat eaque sunt dolores aperiam tempore officiis porro voluptatibus illum libero error officia in inventore hic temporibus cumque! Velit, reprehenderit aliquid voluptate provident dolorem laborum iste dolor voluptatum in enim quis nisi sint recusandae ullam veniam itaque suscipit necessitatibus maxime? Libero, ex eius quidem numquam officiis eligendi porro voluptas debitis eum aspernatur corrupti recusandae ut blanditiis reprehenderit expedita iure asperiores repellat iusto pariatur fugiat? Quia dolorum aut necessitatibus suscipit? Quae perspiciatis laudantium, laborum dolore quasi aperiam quo. Porro ullam fuga aliquam obcaecati quis omnis accusantium facilis ratione, tempora vitae voluptates modi totam odit ea harum! Expedita ad id incidunt ratione facilis quia modi explicabo debitis! Fugiat saepe odio quo molestias mollitia eaque sapiente itaque fuga illo sed dolores natus porro, ratione aperiam perferendis voluptate repellat consequatur quam obcaecati eligendi. Odit omnis quod velit qui inventore! Obcaecati vel iusto ipsam optio perferendis nihil sunt. Quos nostrum iusto adipisci rerum.</p>
+        <img src="./assets/images/profilePH.jpg" alt="rabbit from Disney Robin Hood looking sad" class="float-left"
+          style="padding: 0 2rem 2rem 0;">
+        <h3>Kay Murray ✌️</h3>
+        <i id="locate" class="fas fa-map-marker-alt"> Salt Lake City, UT</i>
+      <hr>
+        <ul>
+          <li>Experience: textiles</li>
+          <li>Education: industrial design</li>
+          <li>Focus: accessibility design</li>
+        </ul>
+        <p>See what I'm up to over on my <a href="https://github.com/theykay">github @theykay</a>
+        </p>
+        <button id="resumeBtn">Resume</button>
       </div>
-      
-      
+
+
     </div>
   </div>
 
@@ -66,6 +84,7 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
     integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
     crossorigin="anonymous"></script>
+  <script src="./assets/index.js"></script>
 </body>
 
 </html>

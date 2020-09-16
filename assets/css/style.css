@@ -6,7 +6,33 @@
     contrast seafoam: #C2EEEA
     contrast dark seafoam: #8CB6B3
 */
-i {
+.contacticon {
     font-size: 30px;
     color: black;
+}
+
+#locate {
+    font-size: 16px;
+}
+
+nav {
+    background: linear-gradient(to right, #FFCED9, #B5AEEC);
+}
+
+.navbar-nav {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+#resume {
+    color: purple;
+    background-color: lightgrey;
+    border: 0;
+    border-radius: 6px;
+}
+
+#resume:hover {
+    color: lightgrey;
+    background-color: purple;
 }
